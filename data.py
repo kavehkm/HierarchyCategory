@@ -1,0 +1,20 @@
+CATEGORIES = [
+    {'id': 100,   'name': 'cat1',    'parent': None},
+    {'id': 200,   'name': 'cat2',    'parent': None},
+    {'id': 300,   'name': 'cat3',    'parent': None},
+    {'id': 400,   'name': 'cat4',    'parent': 100},
+    {'id': 500,   'name': 'cat5',    'parent': 100},
+    {'id': 600,   'name': 'cat6',    'parent': 200},
+    {'id': 700,   'name': 'cat7',    'parent': 300},
+    {'id': 800,   'name': 'cat8',    'parent': 400},
+    {'id': 900,   'name': 'cat9',    'parent': 500},
+    {'id': 1000,  'name': 'cat10',   'parent': 800},
+    {'id': 1100,  'name': 'cat11',   'parent': 1000},
+    {'id': 1200,  'name': 'cat12',   'parent': 400},
+    {'id': 1300,  'name': 'cat13',   'parent': 500},
+    {'id': 1400,  'name': 'cat14',   'parent': 600},
+    {'id': 1500,  'name': 'cat15',   'parent': 1400},
+    {'id': 1600,  'name': 'cat16',   'parent': 1500},
+    {'id': 1700,  'name': 'cat17',   'parent': 1600},
+    {'id': 1800,  'name': 'cat18',   'parent': None}
+]
